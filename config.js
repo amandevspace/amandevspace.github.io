@@ -7,12 +7,12 @@
 
 const CONFIG = {
   person: {
-    name: "Aman",
+    name: "Aman Kumar",
     initial: "A.",
-    role: "Computer Science & Engineering student, class of 2027 —",
-    roleLine2: "building with the MERN stack and, lately, a lot of RAG pipelines.",
+    role: "MERN stack & GenAI developer — Computer Science & Engineering student, class of 2027 —",
+    roleLine2: "building full-stack apps and RAG pipelines that hold up outside a demo.",
     location: "Bhopal, India",
-    intro: "I'm based in Bhopal. Most nights you'll find me deep in a codebase or wiring up something with an LLM in it — I learn best by shipping something that has to actually work, not by reading about it."
+    intro: "I'm Aman Kumar, based in Bhopal, India. Most nights you'll find me deep in a codebase or wiring up something with an LLM in it — I learn best by shipping something that has to actually work, not by reading about it."
   },
 
   links: {
@@ -38,7 +38,7 @@ const CONFIG = {
     {
       n: "02",
       title: "Building Systems",
-      body: "A sign-language-to-speech platform with a 3D avatar took <span class=\"key-phrase\">three different rendering pipelines</span> before it moved naturally — I went from a flat 2D image-based avatar, to FBX with a Mixamo-retargeted rig, and back to GLB once the camera framing finally behaved. A RAG pipeline needed per-user isolated storage before I'd trust it with someone else's documents. An API monitor exists because <span class=\"key-phrase\">\"it works on my machine\" isn't a monitoring strategy</span>."
+      body: "As a <span class=\"key-phrase\">MERN stack developer</span>, a sign-language-to-speech platform with a 3D avatar took three different rendering pipelines before it moved naturally — I went from a flat 2D image-based avatar, to FBX with a Mixamo-retargeted rig, and back to GLB once the camera framing finally behaved. Building a <span class=\"key-phrase\">RAG pipeline</span> for GenAI applications meant it needed per-user isolated storage before I'd trust it with someone else's documents. An API monitor exists because <span class=\"key-phrase\">\"it works on my machine\" isn't a monitoring strategy</span>."
     },
     {
       n: "03",
@@ -59,6 +59,8 @@ const CONFIG = {
         "Fixed a duplicate-animation trigger bug and speech-recognition state issues"
       ],
       stack: ["React", "Three.js", "MediaPipe", "Vite"],
+      // No dedicated repo link supplied yet — points at the GitHub profile
+      // until VaaniSetu has its own repo URL to swap in here.
       links: { code: "https://github.com/amandevspace" }
     },
     {
@@ -72,7 +74,7 @@ const CONFIG = {
         "Split deployment: Netlify (frontend) / Render (backend)"
       ],
       stack: ["RAG", "Node.js", "JWT", "OpenRouter"],
-      links: { code: "https://github.com/amandevspace", live: "https://contextiqfrontend.onrender.com/" }
+      links: { code: "https://github.com/amandevspace/ContextIQ", live: "https://contextiqfrontend.onrender.com/" }
     },
     {
       name: "ApiVigil",
@@ -85,7 +87,7 @@ const CONFIG = {
         "Failure detection before it hits a user report"
       ],
       stack: ["Node.js", "Monitoring", "Security"],
-      links: { code: "https://github.com/amandevspace", live: "https://apivigil.onrender.com" }
+      links: { code: "https://github.com/amandevspace/APIVIGIL", live: "https://apivigil.onrender.com" }
     },
     {
       name: "Clix Chat",
@@ -110,7 +112,7 @@ const CONFIG = {
         "Prompt tuning for natural-sounding output"
       ],
       stack: ["Gemini API", "JavaScript"],
-      links: { code: "https://github.com/amandevspace", live: "https://captioncraft-4jip.onrender.com" }
+      links: { code: "https://github.com/amandevspace/CaptionCraft", live: "https://captioncraft-4jip.onrender.com" }
     },
     {
       name: "CRYPTOTrail",
@@ -122,6 +124,8 @@ const CONFIG = {
         "Compliance-focused output"
       ],
       stack: ["Blockchain", "JavaScript"],
+      // No dedicated repo link supplied yet — points at the GitHub profile
+      // until CRYPTOTrail has its own repo URL to swap in here.
       links: { code: "https://github.com/amandevspace" }
     },
     {
@@ -135,7 +139,7 @@ const CONFIG = {
         "Framer Motion micro-interactions throughout"
       ],
       stack: ["React Three Fiber", "Three.js", "Framer Motion", "Vite"],
-      links: { live: "https://flowlimiter-web.onrender.com" }
+      links: { code: "https://github.com/amandevspace/FlowLimiter", live: "https://flowlimiter-web.onrender.com" }
     }
   ],
 
